@@ -1,0 +1,22 @@
+<view class="top_contain">
+      <view class="des_contain">
+            <view class="name">晗涩</view>
+            <view class="sign">适时开摆</view>
+      </view>
+      <view class="avator_box">
+            <image class="avator" src="https://www.handsomelv.top/images/avatar.jpg"></image>
+      </view>
+</view>
+<view class="contain">
+      <view class="title">程序简介</view>
+      <view class="description">
+            <text space="emsp" decode="{{ true }}">{{des}}</text>
+      </view>
+      <view class="title">联系方式</view>
+      <view class="description">
+            <view class="tip" bindtap="copy" data-copy="https://github.com/handsome-lv" data-name="链接">
+                  <view>Github</view>:
+                  <text>https://github.com/handsome-lv</text>
+            </view>
+      </view>
+</view>
