@@ -92,7 +92,6 @@ Page({
                         stamp: new Date().getTime(),
                         info: that.data.userInfo,
                         useful: true,
-                        parse: 0,
                   },
                   success: function(res) {
                         console.log(res)

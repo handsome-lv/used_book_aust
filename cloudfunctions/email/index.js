@@ -1,21 +1,13 @@
 // 创建一个SMTP客户端配置
 let config = {
-      host: 'smtp.qq.com', //网易163邮箱 smtp.163.com，QQ邮箱就别动
-      port: 465, //网易邮箱端口 25，QQ邮箱就别动
+      host: 'smtp.qq.com',
+      port: 465, //QQ邮箱端口
       auth: {
             user: '2775085562@qq.com', //邮箱账号
             pass: 'bgiizyhoedundeeb' //邮箱的授权码
       }
 };
-const xcxname = '安理二手书'; //你的小程序名称
-
-/*
-下
-面
-不
-用
-管
-*/
+const xcxname = '安理二手书'; //小程序名称
 
 const cloud = require('wx-server-sdk')
 cloud.init()

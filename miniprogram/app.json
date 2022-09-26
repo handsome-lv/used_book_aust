@@ -11,7 +11,8 @@
     "pages/sell/list/list",
     "pages/sell/detail/detail",
     "pages/search/search",
-    "pages/edit/edit"
+    "pages/edit/edit",
+    "pages/kefu/kefu"
   ],
   "window": {
     "backgroundColor": "#FE9A2E",

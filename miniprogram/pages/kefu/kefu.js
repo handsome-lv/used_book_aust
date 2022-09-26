@@ -30,12 +30,6 @@ Page({
                   }
             })
       },
-      //电话拨打
-      phone(e) {
-            wx.makePhoneCall({
-                  phoneNumber: e.currentTarget.dataset.phone
-            })
-      },
       //预览图片
       preview(e) {
             wx.previewImage({

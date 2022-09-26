@@ -51,36 +51,4 @@
                   <image class="rightimg" src="/images/right.png" />
             </view>
       </view>
-      <!--电话联系-->
-      <view wx:if="{{phone}}" class="card" bindtap="phone" data-phone="{{phone}}">
-            <view class="card1">
-                  <image class="wechatimg" src="/images/phone.png" />
-            </view>
-            <view class="borderbox">
-                  <view class="border"></view>
-            </view>
-            <view class="centercontain">
-                  <view class="name">24小时服务热线</view>
-                  <view class="des">{{phone}}</view>
-            </view>
-            <view class="rightico">
-                  <image class="rightimg" src="/images/right.png" />
-            </view>
-      </view>
-      <!--公众号-->
-      <view class="card" bindtap="preview" data-link="{{gzh}}">
-            <view class="card1">
-                  <image class="wechatimg" src="/images/gzh.png" />
-            </view>
-            <view class="borderbox">
-                  <view class="border"></view>
-            </view>
-            <view class="centercontain">
-                  <view class="name">官方公众号</view>
-                  <view class="des">识别二维码关注官方公众号</view>
-            </view>
-            <view class="rightico">
-                  <image class="rightimg" src="/images/right.png" />
-            </view>
-      </view>
 </view>

@@ -1,121 +1,122 @@
 {
-    "miniprogramRoot": "miniprogram/",
-    "cloudfunctionRoot": "cloudfunctions/",
-    "setting": {
-        "urlCheck": true,
-        "es6": true,
-        "enhance": true,
-        "postcss": true,
-        "minified": true,
-        "newFeature": true,
-        "coverView": true,
-        "nodeModules": false,
-        "autoAudits": false,
-        "checkInvalidKey": true,
-        "checkSiteMap": true,
-        "uploadWithSourceMap": true,
-        "babelSetting": {
-            "ignore": [],
-            "disablePlugins": [],
-            "outputPath": ""
+  "miniprogramRoot": "miniprogram/",
+  "cloudfunctionRoot": "cloudfunctions/",
+  "setting": {
+    "urlCheck": true,
+    "es6": true,
+    "enhance": true,
+    "postcss": true,
+    "minified": true,
+    "newFeature": true,
+    "coverView": true,
+    "nodeModules": false,
+    "autoAudits": false,
+    "checkInvalidKey": true,
+    "checkSiteMap": true,
+    "uploadWithSourceMap": true,
+    "babelSetting": {
+      "ignore": [],
+      "disablePlugins": [],
+      "outputPath": ""
+    }
+  },
+  "appid": "wxe3d4a13727432c53",
+  "projectname": "used-book-aust",
+  "libVersion": "2.8.1",
+  "simulatorType": "wechat",
+  "simulatorPluginLibVersion": {},
+  "condition": {
+    "miniprogram": {
+      "list": [
+        {
+          "name": "db guide",
+          "pathName": "pages/databaseGuide/databaseGuide",
+          "query": ""
+        },
+        {
+          "name": "注册",
+          "pathName": "pages/login/login",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "发布",
+          "pathName": "pages/publish/publish",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "详情页",
+          "pathName": "pages/detail/detail",
+          "query": "scene=3c4c6d855d70f8b6124543920c2934e6",
+          "scene": null
+        },
+        {
+          "name": "【订单】详情",
+          "pathName": "pages/order/detail/detail",
+          "query": "id=5d262bd45d7264f5134049797256c6f9",
+          "scene": null
+        },
+        {
+          "name": "【订单】列表",
+          "pathName": "pages/order/list/list",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "个人中心",
+          "pathName": "pages/my/my",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "关于我们",
+          "pathName": "pages/about/about",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "我的发布【列表】",
+          "pathName": "pages/sell/list/list",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "我的发布【详情】",
+          "pathName": "pages/sell/detail/detail",
+          "query": "id=efdeb2615d70eb6012393ac94afadcf6",
+          "scene": null
+        },
+        {
+          "name": "搜索",
+          "pathName": "pages/search/search",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "首页",
+          "pathName": "pages/index/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "【编辑资料】",
+          "pathName": "pages/edit/edit",
+          "query": "",
+          "scene": null
         }
-    },
-    "appid": "wxe3d4a13727432c53",
-    "projectname": "used-book-aust",
-    "libVersion": "2.8.1",
-    "simulatorType": "wechat",
-    "simulatorPluginLibVersion": {},
-    "condition": {
-        "miniprogram": {
-            "list": [{
-                    "name": "db guide",
-                    "pathName": "pages/databaseGuide/databaseGuide",
-                    "query": ""
-                },
-                {
-                    "name": "注册",
-                    "pathName": "pages/login/login",
-                    "query": "",
-                    "scene": null
-                },
-                {
-                    "name": "发布",
-                    "pathName": "pages/publish/publish",
-                    "query": "",
-                    "scene": null
-                },
-                {
-                    "name": "详情页",
-                    "pathName": "pages/detail/detail",
-                    "query": "scene=3c4c6d855d70f8b6124543920c2934e6",
-                    "scene": null
-                },
-                {
-                    "name": "【订单】详情",
-                    "pathName": "pages/order/detail/detail",
-                    "query": "id=5d262bd45d7264f5134049797256c6f9",
-                    "scene": null
-                },
-                {
-                    "name": "【订单】列表",
-                    "pathName": "pages/order/list/list",
-                    "query": "",
-                    "scene": null
-                },
-                {
-                    "name": "个人中心",
-                    "pathName": "pages/my/my",
-                    "query": "",
-                    "scene": null
-                },
-                {
-                    "name": "关于我们",
-                    "pathName": "pages/about/about",
-                    "query": "",
-                    "scene": null
-                },
-                {
-                    "name": "我的发布【列表】",
-                    "pathName": "pages/sell/list/list",
-                    "query": "",
-                    "scene": null
-                },
-                {
-                    "name": "我的发布【详情】",
-                    "pathName": "pages/sell/detail/detail",
-                    "query": "id=efdeb2615d70eb6012393ac94afadcf6",
-                    "scene": null
-                },
-                {
-                    "name": "搜索",
-                    "pathName": "pages/search/search",
-                    "query": "",
-                    "scene": null
-                },
-                {
-                    "name": "首页",
-                    "pathName": "pages/index/index",
-                    "query": "",
-                    "scene": null
-                },
-                {
-                    "name": "【编辑资料】",
-                    "pathName": "pages/edit/edit",
-                    "query": "",
-                    "scene": null
-                }
-            ]
-        }
-    },
-    "compileType": "miniprogram",
-    "srcMiniprogramRoot": "miniprogram/",
-    "packOptions": {
-        "ignore": [],
-        "include": []
-    },
-    "editorSetting": {
-        "tabIndent": "insertSpaces",
-        "tabSize": 2
-    },
-    "cloudfunctionTemplateRoot": "cloudfunctionTemplate/"
+      ]
+    }
+  },
+  "compileType": "miniprogram",
+  "srcMiniprogramRoot": "miniprogram/",
+  "packOptions": {
+    "ignore": [],
+    "include": []
+  },
+  "editorSetting": {
+    "tabIndent": "insertSpaces",
+    "tabSize": 2
+  },
+  "cloudfunctionTemplateRoot": "cloudfunctionTemplate/"
 }

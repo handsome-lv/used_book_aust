@@ -1,14 +1,6 @@
 //此处填写在极速书籍那边申请的接口密钥
 const appkey = 'a30fecf229c29e0c'; 
 
-/*
-下
-面
-不
-用
-管
-*/
-
 const cloud = require('wx-server-sdk')
 const TcbRouter = require('tcb-router'); 
 const rq = require('request');
